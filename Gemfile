@@ -5,7 +5,7 @@ ruby '2.7.1'
 
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'jbuilder', '~> 2.7'
-gem 'neo4j', '~> 9.2.0'
+gem 'neo4j', '~> 9.6.0'
 gem 'neo4j-core'
 gem 'neo4j-rake_tasks'
 gem 'puma', '~> 4.1'

@@ -21,6 +21,6 @@ Rails.application.configure do
   config.assets.debug = true
   config.assets.quiet = true
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
-  config.neo4j.session_type = :server_db
+  config.neo4j.session_type = :http
   config.neo4j.session_path = 'http://localhost:7474/'
 end
