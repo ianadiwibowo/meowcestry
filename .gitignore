@@ -6,7 +6,7 @@
 .yarn-integrity
 /.bundle
 /config/master.key
-/db
+/db/neo4j/development
 /log/*
 /node_modules
 /public/assets
