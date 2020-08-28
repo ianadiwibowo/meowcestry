@@ -125,10 +125,16 @@ GEM
       json
       multi_json
       typhoeus (>= 1.1.2)
+    neo4j-rake_tasks (0.7.19)
+      os
+      rake
+      ruby-progressbar
+      rubyzip (>= 1.1.7)
     nio4r (2.5.2)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
+    os (1.1.1)
     public_suffix (4.0.5)
     puma (4.3.5)
       nio4r (~> 2.0)
@@ -168,6 +174,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (1.7.1)
+    ruby-progressbar (1.10.1)
     rubyzip (2.3.0)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
@@ -203,6 +210,8 @@ GEM
       ethon (>= 0.9.0)
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2020.1)
+      tzinfo (>= 1.0.0)
     web-console (4.0.4)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -233,6 +242,8 @@ DEPENDENCIES
   jbuilder (~> 2.7)
   listen (~> 3.2)
   neo4j (~> 9.2.0)
+  neo4j-core
+  neo4j-rake_tasks
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.2)
   sass-rails (>= 6)
@@ -240,7 +251,7 @@ DEPENDENCIES
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)
-  tzinfo-data
+  tzinfo-data (>= 1.2016.7)
   web-console (>= 3.3.0)
   webdrivers
   webpacker (~> 4.0)
