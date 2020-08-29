@@ -16,7 +16,11 @@
   ) ASSERT `neo4j::migrations::schemamigration`.migration_id IS UNIQUE
 - CONSTRAINT ON ( cat:Cat ) ASSERT cat.name IS UNIQUE
 - CONSTRAINT ON ( cat:Cat ) ASSERT cat.uuid IS UNIQUE
+- CONSTRAINT ON ( category:Category ) ASSERT category.name IS UNIQUE
+- CONSTRAINT ON ( category:Category ) ASSERT category.uuid IS UNIQUE
 :indexes: []
 :versions:
 - '20200828174203'
 - '20200828181359'
+- '20200829053314'
+- '20200829053322'
