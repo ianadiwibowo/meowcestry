@@ -1,24 +1,3 @@
-# README
+# Meowcestry
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Meowcestry is a web app to record your cat family tree. Because this is a very important problem to solve. Meowcestry is powered by Rails 6 and Neo4j graph platform.
