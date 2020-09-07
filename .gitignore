@@ -3,6 +3,7 @@
 !/tmp/pids/
 !/tmp/pids/.keep
 .byebug_history
+.DS_Store
 .yarn-integrity
 /.bundle
 /config/master.key
