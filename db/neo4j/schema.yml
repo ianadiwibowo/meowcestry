@@ -14,13 +14,13 @@
 :constraints:
 - CONSTRAINT ON ( `neo4j::migrations::schemamigration`:`Neo4j::Migrations::SchemaMigration`
   ) ASSERT `neo4j::migrations::schemamigration`.migration_id IS UNIQUE
-- CONSTRAINT ON ( cat:Cat ) ASSERT cat.name IS UNIQUE
-- CONSTRAINT ON ( cat:Cat ) ASSERT cat.uuid IS UNIQUE
-- CONSTRAINT ON ( category:Category ) ASSERT category.name IS UNIQUE
-- CONSTRAINT ON ( category:Category ) ASSERT category.uuid IS UNIQUE
+- CONSTRAINT ON ( character:Character ) ASSERT character.name IS UNIQUE
+- CONSTRAINT ON ( character:Character ) ASSERT character.uuid IS UNIQUE
+- CONSTRAINT ON ( relationship:Relationship ) ASSERT relationship.name IS UNIQUE
+- CONSTRAINT ON ( relationship:Relationship ) ASSERT relationship.uuid IS UNIQUE
 :indexes: []
 :versions:
-- '20200828174203'
-- '20200828181359'
-- '20200829053314'
-- '20200829053322'
+- '20200907161824'
+- '20200907161832'
+- '20200907162824'
+- '20200907162831'

@@ -1,4 +1,4 @@
-class Category
+class Relationship
   include Neo4j::ActiveNode
 
   property :name, type: String, constraint: :unique

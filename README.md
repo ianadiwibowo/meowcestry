@@ -18,5 +18,5 @@ rake neo4j:start
 rake neo4j:migrate
 
 # Generate new migration using scaffolding like this example
-rake neo4j:generate_schema_migration[constraint,Category,name]
+rake neo4j:generate_schema_migration[constraint,Character,name]
 ```
